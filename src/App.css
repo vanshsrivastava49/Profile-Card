@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(255, 255, 255, 0.699);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-card {
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #ffe8cc, #f4bbd3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.profile-card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.profile-card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.social-icons a {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+}
+.social-icons img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.profile-card .stats {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.profile-card .stats p {
+  margin: 5px 0;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.links a {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+.links a:hover {
+  background-color: #444;
+}
