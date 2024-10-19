@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // Optional, if you have a CSS file for styles
+import './App.css';
 import vanshPhoto from './assets/vansh_photo.jpg';
 import instaIcon from './assets/insta.png';
 import linkedinIcon from './assets/linkedin.png';
