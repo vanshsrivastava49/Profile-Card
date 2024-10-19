@@ -11,7 +11,7 @@ const App = () => {
     <>
       <div className="profile-card">
       <img src={vanshPhoto} alt="Vansh Srivastava" />
-        <h1>Vansh Srivastava</h1>
+        <h1>Vansh Srivastava</h1> 
         <p>Full Stack Web Developer</p>
         <div className="social-icons">
           <a href="https://www.instagram.com/vanshsrivastava49/" target="_blank" rel="noopener noreferrer">
