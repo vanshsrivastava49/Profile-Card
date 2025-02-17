@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // Optional, if you have a CSS file for styles
+import './App.css';
 import vanshPhoto from './assets/vansh_photo.jpg';
 import instaIcon from './assets/insta.png';
 import linkedinIcon from './assets/linkedin.png';
@@ -9,6 +9,7 @@ import githubIcon from './assets/github.webp';
 const App = () => {
   return (
     <>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
       <div className="profile-card">
       <img src={vanshPhoto} alt="Vansh Srivastava" />
         <h1>Vansh Srivastava</h1>
